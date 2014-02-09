@@ -1,0 +1,6 @@
+## how to connect SQL server in R
+> dbhandle <- odbcDriverConnect('driver={SQL Server};server=10.26.4.43;database=LMSDW;trusted_connection=true')
+
+
+## how to run query in R..
+> inituitive <- sqlQuery(dbhandle,'select top 10 * from table')
